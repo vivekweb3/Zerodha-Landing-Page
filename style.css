@@ -1,0 +1,76 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    box-shadow: 2px 1px 2px #eee;
+    background-color: #fff;
+  }
+  
+  .logo {
+    padding-top: 15px;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    padding: 20px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title h1 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  .subtitle {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .subtitle h2 {
+    font-weight: 400;
+  }
+  
+  .sign-up-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  #button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #button:hover {
+    background-color: #005bb5;
+  }
+  
